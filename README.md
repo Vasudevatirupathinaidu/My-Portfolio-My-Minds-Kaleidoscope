@@ -12,6 +12,8 @@ Check out my portfolio presentation that I created with Apple Keynote (presentat
 
 ![Profile Developer Mode](./PortfolioImg2.png)
 
+![Profile Console Log](./PortfolioImg3.png)
+
 ## Features
 
 - Mimics a **Single Page Application (SPA)**.
