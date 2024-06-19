@@ -4,7 +4,7 @@ Personal Portfolio is a project designed using plain web technologies: **HTML, C
 
 👇 Check out my portfolio presentation that I created with Apple Keynote (presentation software).
 
-- HTML, CSS, JS, Vite (Frontend tooling), Figma (Design tool).
+- HTML, CSS, JS, Vite (Frontend tooling), Figma (Design tool) and Netlify (Hosting).
 
 ## Demo
 
