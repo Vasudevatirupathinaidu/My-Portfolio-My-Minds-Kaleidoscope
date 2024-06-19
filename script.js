@@ -542,7 +542,7 @@ document.addEventListener("DOMContentLoaded", function () {
       } else if (value === "reset") {
         /* Reset the website */
         localStorage.clear();
-        window.location.hash = "";
+        // window.location.hash = "";
         window.location.hash = "pages/home.html";
         loadPage("pages/home.html");
         window.location.reload();
@@ -576,7 +576,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .getAttribute("href")
         .replace("#", "");
       if (!isMagnetRepelEffectOn) {
-        window.location.hash = "";
+        // window.location.hash = "";
         window.location.hash = `pages/${pageName}`;
       }
     }
@@ -624,7 +624,7 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault();
       const pageName = magnetAtom.getAttribute("href").replace("#", "");
       if (!isMagnetRepelEffectOn) {
-        window.location.hash = "";
+        // window.location.hash = "";
         window.location.hash = `pages/${pageName}`;
       }
     });
@@ -649,7 +649,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function handleHomePage(e) {
     e.preventDefault();
     loadPage("pages/home.html");
-    window.location.hash = "";
+    // window.location.hash = "";
     window.location.hash = "pages/home.html";
   }
 
@@ -765,7 +765,7 @@ document.addEventListener("DOMContentLoaded", function () {
           .getAttribute("href")
           .replace("#", "");
         if (!isMagnetRepelEffectOn) {
-          window.location.hash = ``;
+          // window.location.hash = "";
           window.location.hash = `pages/${pageName}`;
         }
       }
@@ -840,10 +840,9 @@ document.addEventListener("DOMContentLoaded", function () {
           `%cYou are already on the "${page}" page.`,
           "color:#2EA5F2; font-size: 0.8rem;"
         );
-        return;
       }
 
-      window.location.hash = "";
+      // window.location.hash = "";
       window.location.hash = `pages/${page}.html`.toLowerCase();
     },
 
