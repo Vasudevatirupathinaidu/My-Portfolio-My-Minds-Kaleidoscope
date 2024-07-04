@@ -2,7 +2,7 @@
 
 Personal Portfolio is a project designed using plain web technologies: **HTML, CSS, and JavaScript**, this project mimics a **Single Page Application (SPA)** with routing between pages. It features a drag-and-drop API, incorporating **drag-and-drop** in multiple innovative ways, including a terminal-like setup in developer mode. Leveraging the power of JavaScript, this portfolio showcases my projects and blogs, all presented with a sleek and engaging **UI design**.
 
-Check out my portfolio presentation that I created with Apple Keynote (presentation software).
+Check out my portfolio presentation ([My Portfolio: My Mind's Kaleidoscope](https://youtu.be/WisnprhR9y0?si=mWRRk8VHb0-ioWsE)) that I created with Apple Keynote (presentation software).
 
 - HTML, CSS, JS, and Netlify (Hosting).
 
